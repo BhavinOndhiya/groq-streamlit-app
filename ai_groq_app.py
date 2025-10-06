@@ -163,7 +163,7 @@ with col1:
         st.image("https://www.gstatic.com/devrel-devsite/prod/v3f0b0d33bdc3a2b9a2b6a0a6a43b5e64b3f1a7e5c7a3b2c1d4e5f6/static/images/og-image.png", width=160)
 
 with col2:
-    st.title("Groq Playground")
+    st.title("Groq Playground by Bhavin")
     st.markdown("A single-file Streamlit demo that calls the Groq API (chat + embeddings). Modern UI with Lottie animation. Paste your API key in the sidebar or set `GROQ_API_KEY` in env.")
 
 # Sidebar inputs
