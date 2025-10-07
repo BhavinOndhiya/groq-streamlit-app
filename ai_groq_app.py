@@ -247,6 +247,9 @@ with chat_col2:
 
     st.markdown("---")
     st.markdown("### Quick prompts")
+    if st.button("Polish text"):
+        st.session_state.chat_history.append(("user", "Polish this sentence and make it grammatically correct."))
+        st.rerun()
     if st.button("Explain like I'm 5"):
         st.session_state.chat_history.append(("user", "Explain the concept in simple terms as if to a 5-year-old."))
         st.rerun()
